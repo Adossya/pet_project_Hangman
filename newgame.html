@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Hangman Game</title>
+</head>
+<body class="body">
+    
+    <!--Switch Theme-->
+    <div class="darkmode">
+    <div class="switch-btn">
+        <span class="switch-btn_circle"></span>
+    </div>
+    Dark mode
+</div>
+
+    <!--New game-->
+    <section class="new-game">
+    <div class="container">
+        <h1 class="title ">[ Hangman game ]</h1>
+            <form class="new-game__form mt25">
+                <div class="new-game__wrapper">
+                <input id="impact" type="password" autocomplete="on" name="password" required placeholder="Create new word to start the game" class="new-game__input">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+                fill="none" class="eyeIcon active">
+                <path
+                    d="M21.544 11.045C21.848 11.4713 22 11.6845 22 12C22 12.3155 21.848 12.5287 21.544 12.955C20.1779 14.8706 16.6892 19 12 19C7.31078 19 3.8221 14.8706 2.45604 12.955C2.15201 12.5287 2 12.3155 2 12C2 11.6845 2.15201 11.4713 2.45604 11.045C3.8221 9.12944 7.31078 5 12 5C16.6892 5 20.1779 9.12944 21.544 11.045Z"
+                    stroke="currentColor" stroke-width="1.5" />
+                <path
+                    d="M15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12Z"
+                    stroke="currentColor" stroke-width="1.5" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" height="24px" width = "24px" class="eyeIcon-hiden">
+                    <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24" />
+                    <line x1="1" y1="1" x2="23" y2="23" />
+                </svg>
+                <div class="new-game__error mt10"></div>
+                </div>
+
+                <button class="btn new-game__btn">Start new game</button>
+            </form> 
+
+
+
+
+ 
+
+    </div>
+</section>
+
+
+
+    <script  src="js/script.js"></script>
+</body>
+</html>

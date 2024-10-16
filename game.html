@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Hangman Game</title>
+</head>
+<body class="body">
+    
+    <!--Switch Theme-->
+    <div class="darkmode">
+    <div class="switch-btn">
+        <span class="switch-btn_circle"></span>
+    </div>
+    Dark mode
+</div>
+
+    <!--Game-->
+    <section class="game">
+    <div class="container">
+        <h2 class="title game__title">[ Hangman game ]</h2>
+        <div class="game__hangman mt10">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+                <div class="rope"></div>
+                <div class="head"></div>
+                <div class="figure"></div>
+                <div class="hand-left"></div>
+                <div class="hand-right"></div>
+                <div class="leg-left"></div>
+                <div class="leg-right"></div>
+        </div>
+        <div class="game__word mt10"></div>
+        <div class="game__lifes mt10">TRIES LEFT:
+            <span id="lifeIsGood"></span>
+        </div>
+        <div class="game__keyboard mt25">
+                <div class="btn game__btn">A</div>
+                <div class="btn game__btn">B</div>
+                <div class="btn game__btn">C</div>
+                <div class="btn game__btn">D</div>
+                <div class="btn game__btn">E</div>
+                <div class="btn game__btn">F</div>
+                <div class="btn game__btn">G</div>
+                <div class="btn game__btn">H</div>
+                <div class="btn game__btn">I</div>
+                <div class="btn game__btn">J</div>
+                <div class="btn game__btn">K</div>
+                <div class="btn game__btn">L</div>
+                <div class="btn game__btn">M</div>
+                <div class="btn game__btn">N</div>
+                <div class="btn game__btn">O</div>
+                <div class="btn game__btn">P</div>
+                <div class="btn game__btn">Q</div>
+                <div class="btn game__btn">R</div>
+                <div class="btn game__btn">S</div>
+                <div class="btn game__btn">T</div>
+                <div class="btn game__btn">U</div>
+                <div class="btn game__btn">V</div>
+                <div class="btn game__btn">W</div>
+                <div class="btn game__btn">Z</div>
+                <div class="btn game__btn">Y</div>
+                <div class="btn game__btn">Z</div>
+        </div>
+        <a href="index.html" class="btn game__quit mt50">Quit</a>
+    </div>
+</section>
+
+
+    <script  src="js/script.js"></script>
+</body>
+</html>

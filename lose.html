@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Hangman Game</title>
+</head>
+<body class="body">
+    
+    <!--Switch Theme-->
+    <div class="darkmode">
+    <div class="switch-btn">
+        <span class="switch-btn_circle"></span>
+    </div>
+    Dark mode
+</div>
+
+
+    <!--Lose section-->
+    <section class="lose">
+    <div class="container">
+        <div class="lose__wrapper">
+            <h2 class="title game__title lose__title">[ Hangman game ]</h2>
+            <div class="game__hangman mt25">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+                <div class="rope show"></div>
+                <div class="head show"></div>
+                <div class="figure show"></div>
+                <div class="hand-left show"></div>
+                <div class="hand-right show"></div>
+                <div class="leg-left show"></div>
+                <div class="leg-right show"></div>
+            </div>
+            <div class="info mt10">You lost :&#40;</div>
+            <div class="word mt5">The word was: 
+                <span id ="word"></span>
+            </div>
+            <a href="newgame.html" class="btn start__btn lose__again">Play again</a>
+        </div>
+    </div>
+</section>
+
+
+
+    <script  src="js/script.js"></script>
+</body>
+</html>
